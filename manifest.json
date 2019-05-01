@@ -1,0 +1,32 @@
+{
+    "schemaVersion": "2.0",
+    "version": "1.2.5",
+    "packages": {
+        "windows": {
+            "_any": {
+                "x86_64": {
+                    "file": "CS_WINDOWS.zip"
+                }
+            }
+        },
+        "amazon": {
+            "_any": {
+                "x86_64": {
+                    "file": "CS_AMAZON.zip"
+                }
+            }
+        }
+    },
+    "files": {
+        "CS_WINDOWS.zip": {
+            "checksums": {
+                "sha256": "ae8f3ed92f48ba1e08b990c6022bb6d0cb77161abd6d96f91eef4dc64c325a2a"
+            }
+        },
+        "CS_AMAZON.zip": {
+            "checksums": {
+                "sha256": "0d4c996ae2a16a423aae9ff64b0f5a65ec055e6533a0b208d44d3209d3c2a7d4"
+            }
+        }
+    }
+}
