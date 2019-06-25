@@ -12,10 +12,6 @@ $S3BUCKETLOCATION=(Get-SSMParameter -Name AgentInstallLocation).value
 Write-Output $S3BUCKETLOCATION
 
 
-#Hard Coded CID
-# PS v5
-#Read-S3Object -BucketName $S3BUCKETLOCATION -Key WindowsSensor.exe -File c:\Windows\Temp\WindowsSensor.exe
-
 #PS V3
 $S3URL="https://s3.amazonaws.com/"
 $FILENAME="/WindowsSensor.exe"
